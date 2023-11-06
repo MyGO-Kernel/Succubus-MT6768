@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 
+# IPACM
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
